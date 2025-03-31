@@ -1,0 +1,61 @@
+{
+  "name": "a_simple_template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.6.5",
+  "engines": {
+    "node": ">=18.19.1 <19 || >=20.6.1"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,json,css,html,md}\"",
+    "lint": "stylelint \"src/**/*.css\"",
+    "dev": "weapp-vite dev",
+    "build": "weapp-vite build",
+    "dev:open": "weapp-vite dev -o",
+    "open": "weapp-vite open",
+    "g": "weapp-vite generate"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.26.0",
+    "@tailwindcss/vite": "^4.0.17",
+    "@vue-mini/core": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/traverse": "^7.25.9",
+    "@babel/types": "^7.26.0",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-replace": "^6.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@tailwindcss/postcss": "^4.0.17",
+    "babel-plugin-autocomplete-index": "^0.2.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.4",
+    "chokidar": "^4.0.1",
+    "cross-env": "^7.0.3",
+    "fs-extra": "^11.2.0",
+    "kolorist": "^1.8.0",
+    "local-pkg": "^0.5.0",
+    "miniprogram-api-typings": "latest",
+    "postcss": "^8.5.3",
+    "postcss-load-config": "^6.0.1",
+    "postcss-pxtorpx-pro": "^2.0.0",
+    "prettier": "^3.3.3",
+    "rollup": "^4.25.0",
+    "stylelint": "^16.10.0",
+    "stylelint-config-standard": "^36.0.1",
+    "tailwindcss": "^4.0.17",
+    "terser": "^5.36.0",
+    "typescript": "latest",
+    "weapp-tailwindcss": "^4.1.2",
+    "weapp-vite": "latest"
+  },
+  "browserslist": [
+    "iOS >= 10",
+    "Chrome >= 63"
+  ]
+}
