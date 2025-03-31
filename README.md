@@ -8,6 +8,10 @@
 关于Vue-mini的开发文档更多信息请访问官方文档：[vuemini.org](https://vuemini.org)  
 
 可以正常使用TailwindCSS v4，部分新特性暂不支持。 
+## 使用模板快速创建
+```bash
+npm create vue-mini-app-with-tailwindcss-v4
+```
 
 ## 使用前先：依赖安装！
 
