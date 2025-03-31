@@ -1,10 +1,15 @@
-# Wall
+# Vue-mini 的 Tailwind v4模板
 
-⚠️ 注意：将此项目导入微信开发者工具时请选择项目根目录而非 `dist` 目录。
+使用 [vuemini 小程序框架](https://vuemini.org) 配合 [weapp-vite](https://github.com/weapp-vite/weapp-vite) 和 [weapp-tailwindcss](https://github.com/sonofmagic/weapp-tailwindcss) 构建。
 
-更多信息请访问官方文档：[vuemini.org](https://vuemini.org)
+引入 ``@tailwind/vite`` 并使用 ``weapp-tailwindcss`` 进行可用性转化。 详情参考``weapp-tailwindcss``文档。  
 
-## 依赖安装
+⚠️ 注意：将此项目导入微信开发者工具时请选择项目根目录而非 `dist` 目录。  
+关于Vue-mini的开发文档更多信息请访问官方文档：[vuemini.org](https://vuemini.org)  
+
+可以正常使用TailwindCSS v4，部分新特性暂不支持。 
+
+## 使用前先：依赖安装！
 
 ```sh
 pnpm install
