@@ -1,5 +1,5 @@
 import { defineConfig } from 'weapp-vite/config'
-import tailwindcss from '@tailwindcss/vite'
+import tailwindcss from '@tailwindcss/postcss'
 import { UnifiedViteWeappTailwindcssPlugin } from 'weapp-tailwindcss/vite'
 
 

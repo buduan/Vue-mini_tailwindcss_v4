@@ -18,7 +18,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.26.0",
-    "@tailwindcss/vite": "^4.0.17",
     "@vue-mini/core": "^1.2.0"
   },
   "devDependencies": {
@@ -32,6 +31,7 @@
     "@rollup/plugin-replace": "^6.0.1",
     "@rollup/plugin-terser": "^0.4.4",
     "@tailwindcss/postcss": "^4.0.17",
+    "@tailwindcss/vite": "^4.0.17",
     "babel-plugin-autocomplete-index": "^0.2.0",
     "babel-plugin-module-resolver": "^5.0.2",
     "babel-plugin-transform-inline-environment-variables": "^0.4.4",
@@ -46,6 +46,7 @@
     "postcss-pxtorpx-pro": "^2.0.0",
     "prettier": "^3.3.3",
     "rollup": "^4.25.0",
+    "sass-embedded": "^1.86.0",
     "stylelint": "^16.10.0",
     "stylelint-config-standard": "^36.0.1",
     "tailwindcss": "^4.0.17",
@@ -57,5 +58,10 @@
   "browserslist": [
     "iOS >= 10",
     "Chrome >= 63"
-  ]
+  ],
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "weapp-tailwindcss"
+    ]
+  }
 }

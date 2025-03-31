@@ -3,6 +3,7 @@ import tailwindcss from '@tailwindcss/postcss';
 
 const config = {
   plugins: [
+    tailwindcss(),
     {
       postcssPlugin: 'postcss-import-css-to-wxss',
       AtRule: {
